@@ -108,9 +108,10 @@ function tutorial(){
   text('Use as setas do teclado (↑ ↓ → ←)',20,140);
   text('para movimentar a nave e SPACE',20,190);
   text('para disparar contra os objetos',20,240);
-  text('específicos que aparecerão na parte',20,290);
-  text('superior esquerda, desviando das',20,340);
-  text('outras e não as deixando cair no chão',20,390);
+  text('específicos que aparecerão na',20,290);
+  text('parte superior esquerda, desviando',20,340);
+  text('das outras e não as deixando cair',20,390);
+  text('no chão.',20,440);
   
 }
 
