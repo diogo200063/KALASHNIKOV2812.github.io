@@ -124,7 +124,7 @@ function keyPressed(){
       jogar();
       break; 
     case 2:
-      btnMenu();
+      btnEquipe();
       break;
     case 3:
       btnEquipe();
