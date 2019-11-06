@@ -99,7 +99,7 @@ function equipe(){
 }
   
 function tutorial(){
-  background(imgTutorial);
+  background(imgEquipe);
   textSize(40);
   fill('rgb(29, 233, 182)');
   stroke(0);
