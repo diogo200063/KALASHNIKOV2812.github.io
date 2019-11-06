@@ -35,7 +35,7 @@ function draw() {
 function jogar(){
   
   background(imgJogo);
-  image(imgNave,xNave,yNave,150,150);
+  image(imgNave,xNave,yNave,100,100);
   
   textSize(40);
   fill('rgb(229, 57, 53)');
