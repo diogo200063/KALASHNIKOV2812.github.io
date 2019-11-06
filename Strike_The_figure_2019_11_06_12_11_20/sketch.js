@@ -24,7 +24,7 @@ function draw() {
       jogar();
       break;
     case 2:
-      menu();
+      tutorial();
       break;
     case 3:
       equipe();
@@ -96,6 +96,21 @@ function equipe(){
   text('Professor: Aquiles Burlamaqui',80,300);
   text('ECT - UFRN',200,400);
   text('2019',280,450);
+}
+  
+function tutorial(){
+  background(imgTutorial);
+  textSize(40);
+  fill('rgb(29, 233, 182)');
+  stroke(0);
+  strokeWeight(6);
+  text('COMO JOGAR: ',20,90);
+  text('Use as setas do teclado (↑ ↓ → ←)',20,140);
+  text('para movimentar a nave e SPACE',20,190);
+  text('para disparar contra os objetos',20,240);
+  text('específicos que aparecerão na parte',20,290);
+  text('superior esquerda, desviando das',20,340);
+  text('outras e não as deixando cair no chão',20,390);
   
 }
 
