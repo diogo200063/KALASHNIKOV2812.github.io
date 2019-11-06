@@ -1,0 +1,22 @@
+square				      quadrado
+rectangle			      retangulo
+parallelepiped			paralelepipedo
+trapeze				      trapezio
+triangle			      triangulo
+circle				      circulo
+elipse				      "
+star				        estrela
+pentagon			      pentagono
+hexagon				      hexagono
+moon				        lua
+sun				          sol
+cross				        cruz
+ring				        anel
+arrow				        seta
+pyramid				      piramide
+bone				        osso
+
+heart				        coração
+rhombus - diamond		losango - "ouro"
+spade				        espada
+club				        "paus"
