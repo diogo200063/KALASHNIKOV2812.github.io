@@ -100,13 +100,13 @@ function jogar(){
   }
   
   if(keyIsDown(DOWN_ARROW)){
-    if(yNave<350){
+    if(yNave<400){
       yNave+=5;
     }
   }
   
   if(keyIsDown(RIGHT_ARROW)){
-    if(xNave<510){
+    if(xNave<560){
       xNave+=5;
     }
   }
