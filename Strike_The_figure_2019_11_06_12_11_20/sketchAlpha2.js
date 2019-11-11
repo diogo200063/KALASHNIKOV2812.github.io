@@ -89,12 +89,12 @@ function jogar(){
     
     if(yObj>600){
       yObj = 0;
-      xObj = random(600);
+      xObj = random(700);
     }
     
   }else if(vidasObj==0){
     vidasObj = 3;
-    xObj = random(800);
+    xObj = random(700);
     yObj = 0;
     pontos++;
   }
@@ -104,7 +104,7 @@ function jogar(){
     yNave = 500;
     vidasJogador--;
     yObj = 0;
-    xObj = random(800);
+    xObj = random(700);
   }
   
   textSize(40);
@@ -188,6 +188,17 @@ function jogar(){
   if(keyIsDown(BACKSPACE)){
     telaAtiva = 0;
   }
+  
+  if(keyIsDown(27) || keyIsDown(BACKSPACE)){
+     telaAtiva = 0;
+     vidasJogador = 3;
+     vidasObj = 3;
+     xNave = 300;
+     yNave = 500;
+     yObj = 100;
+     xObj = random(700);
+     pontos = 0;
+  }
 }
 
 function gameOver(){
@@ -197,7 +208,7 @@ function gameOver(){
   xNave = 300;
   yNave = 500;
   yObj = 100;
-  xObj = random(800);
+  xObj = random(700);
   pontos = 0;
 }
 
@@ -228,7 +239,9 @@ function tutorial(){
   text('específicos que aparecerão na',20,290);
   text('parte superior esquerda, desviando',20,340);
   text('das outras e não as deixando cair',20,390);
-  text('no chão.',20,440);
+  text('no chão. Quando estiver jogando',20,440);
+  text('Pressione ESC para voltar ao menu.',20,490);
+  text('Voltar ao menu (Aperte BACKSPACE)',20,590);
   
 }
 
@@ -241,10 +254,10 @@ function keyPressed(){
       jogar();
       break; 
     case 2:
-      btnEquipe();
+      btnVoltar();
       break;
     case 3:
-      btnEquipe();
+      btnVoltar();
       break;
   }
 
@@ -276,9 +289,8 @@ function btnMenu(){
   }
 }
 
-function btnEquipe(){
+function btnVoltar(){
   if(keyCode == BACKSPACE){
     telaAtiva = 0; 
-    gameOver();
   }
 }
