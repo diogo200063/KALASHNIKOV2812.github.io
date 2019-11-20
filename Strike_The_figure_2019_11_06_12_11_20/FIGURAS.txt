@@ -1,10 +1,10 @@
-square				      quadrado
-rectangle			      retangulo
-parallelepiped			paralelepipedo
-trapeze				      trapezio
-triangle			      triangulo
-circle				      circulo
-elipse				      "
+square				      quadrado            V
+rectangle			      retangulo           v
+parallelepiped			paralelepipedo      v
+trapeze				      trapezio            V
+triangle			      triangulo           V
+circle				      circulo             V
+elipse				      " 
 star				        estrela
 pentagon			      pentagono
 hexagon				      hexagono
