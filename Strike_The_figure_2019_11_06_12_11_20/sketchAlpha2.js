@@ -129,15 +129,15 @@ function jogar(){
   noStroke();
   fill('rgb(213, 0, 0)');
   
-  if(vidasJogador == 3){
-    image(imgCoracao,420,10,50,50);
-    image(imgCoracao,470,10,50,50);
-    image(imgCoracao,520,10,50,50);
+   if(vidasJogador == 3){
+    image(imgCoracao,440,20,40,40);
+    image(imgCoracao,490,20,40,40);
+    image(imgCoracao,540,20,40,40);
   } else if (vidasJogador == 2){
-    image(imgCoracao,420,10,50,50);
-    image(imgCoracao,470,10,50,50);
+    image(imgCoracao,440,20,40,40);
+    image(imgCoracao,490,20,40,40);
   } else if (vidasJogador == 1){
-    image(imgCoracao,420,10,50,50);
+    image(imgCoracao,440,20,40,40);
   } if(vidasJogador == 0){
     gameOver();
   }
