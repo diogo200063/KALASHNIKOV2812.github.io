@@ -130,14 +130,14 @@ function jogar(){
   fill('rgb(213, 0, 0)');
   
   if(vidasJogador == 3){
-    image(imgCoracao,420,10,80,80);
-    image(imgCoracao,470,10,80,80);
-    image(imgCoracao,520,10,80,80);
+    image(imgCoracao,420,10,50,50);
+    image(imgCoracao,470,10,50,50);
+    image(imgCoracao,520,10,50,50);
   } else if (vidasJogador == 2){
-    image(imgCoracao,420,10,80,80);
-    image(imgCoracao,470,10,80,80);
+    image(imgCoracao,420,10,50,50);
+    image(imgCoracao,470,10,50,50);
   } else if (vidasJogador == 1){
-    image(imgCoracao,420,10,80,80);
+    image(imgCoracao,420,10,50,50);
   } if(vidasJogador == 0){
     gameOver();
   }
