@@ -1,5 +1,5 @@
 var telaAtiva = 0, opcao = 1;
-var imgMenu, imgEquipe, imgJogo, imgNave, imgDisparo;
+var imgMenu, imgEquipe, imgJogo, imgNave, imgDisparo, imgCoracao;
 var y = 150;
 
 var xObj = 150, yObj = 100;
@@ -19,6 +19,7 @@ function preload() {
   imgJogo = loadImage('Background-3.png');
   imgNave = loadImage('F5S4.png');
   imgDisparo = loadImage('disparo.png');
+  imgCoracao = loadImage('coracao.png');
 }
 
 function draw() {
@@ -129,14 +130,14 @@ function jogar(){
   fill('rgb(213, 0, 0)');
   
   if(vidasJogador == 3){
-    circle(450,40,30);
-    circle(490,40,30);
-    circle(530,40,30);
+    image(imgCoracao,420,10,80,80);
+    image(imgCoracao,470,10,80,80);
+    image(imgCoracao,520,10,80,80);
   } else if (vidasJogador == 2){
-    circle(450,40,30);
-    circle(490,40,30);
+    image(imgCoracao,420,10,80,80);
+    image(imgCoracao,470,10,80,80);
   } else if (vidasJogador == 1){
-     circle(450,40,30); 
+    image(imgCoracao,420,10,80,80);
   } if(vidasJogador == 0){
     gameOver();
   }
@@ -260,7 +261,6 @@ function keyPressed(){
       btnVoltar();
       break;
   }
-
 }
 
 function btnMenu(){
