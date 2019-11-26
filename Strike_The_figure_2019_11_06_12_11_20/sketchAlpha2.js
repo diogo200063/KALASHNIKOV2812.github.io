@@ -112,7 +112,9 @@ function jogar(){
   fill('rgb(229, 57, 53)');
   stroke(0);
   strokeWeight(5);
-  text(figura(), 30, 50);
+  var a = figura()
+  console.log(a)
+  text(a, 30, 50);
   
   textSize(30);
   fill('rgb(229, 57, 53)');
