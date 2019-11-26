@@ -299,7 +299,7 @@ function btnVoltar(){
 
 function figura(){
   var valor = random(21);
-  console.log(valor)
+  console.log("valor")
   switch(valor){
     case 0:
       return 'CIRCLE';
