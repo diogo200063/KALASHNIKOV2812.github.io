@@ -298,49 +298,50 @@ function btnVoltar(){
 }
 
 function figura(){
-  var valor = random(21)
+  var valor = random(21);
+  console.log(valor)
   switch(valor){
     case 0:
-      return 'CIRCLE'
+      return 'CIRCLE';
     case 1:
-      return 'TRIANGLE'
+      return 'TRIANGLE';
     case 2:
-      return 'SQUARE'
+      return 'SQUARE';
     case 3:
-      return 'RECTANGLE'
+      return 'RECTANGLE';
     case 4:
-      return 'PARALLELEPIPED'
+      return 'PARALLELEPIPED';
     case 5:
-      return 'TRAPEZE'
+      return 'TRAPEZE';
     case 6:
-      return 'ELIPSE'
+      return 'ELIPSE';
     case 7:
-      return 'STAR'
+      return 'STAR';
     case 8:
-      return 'PENTAGON'
+      return 'PENTAGON';
     case 9:
-      return 'HEXAGON'
+      return 'HEXAGON';
     case 10:
-      return 'MOON'
+      return 'MOON';
     case 11:
-      return 'SUN'
+      return 'SUN';
     case 12:
-      return 'CROSS'
+      return 'CROSS';
     case 13:
-      return 'RING'
+      return 'RING';
     case 14:
-      return 'PYRAMID'
+      return 'PYRAMID';
     case 15:
-      return 'BONE'
+      return 'BONE';
     case 16:
-      return 'HEART'
+      return 'HEART';
     case 17:
-      return 'RHOMBUS'
+      return 'RHOMBUS';
     case 18:
-      return 'SPADE'
+      return 'SPADE';
     case 19:
-      return 'CLUBS'
+      return 'CLUBS';
     case 20:
-      return 'ARROW'
+      return 'ARROW';
   }
 }
